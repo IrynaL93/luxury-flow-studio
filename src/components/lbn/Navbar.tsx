@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.png.asset.json";
 import { Menu, X } from "lucide-react";
 
 const links = [
@@ -30,7 +30,7 @@ export const Navbar = () => {
       <div className="container">
         <nav className={`flex items-center justify-between rounded-2xl px-5 py-3 transition-all ${scrolled ? "glass-strong shadow-card" : "glass"}`}>
           <a href="#top" className="flex items-center gap-2.5 group">
-            <img src={logo} alt="LBN Flow logo" className="h-8 w-8 group-hover:scale-110 transition-transform" />
+            <img src={logo.url} alt="LBN Flow logo" className="h-8 w-8 group-hover:scale-110 transition-transform" />
             <span className="font-display font-bold text-lg tracking-tight">LBN Flow</span>
           </a>
           <ul className="hidden lg:flex items-center gap-1">

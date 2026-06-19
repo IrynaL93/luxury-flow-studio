@@ -1,6 +1,6 @@
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.png.asset.json";
 import { Instagram, Mail } from "lucide-react";
 
 export const Footer = () => {
@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="LBN Flow" className="h-8 w-8" />
+            <img src={logo.url} alt="LBN Flow" className="h-8 w-8" />
             <div>
               <div className="font-display font-bold">LBN Flow</div>
               <div className="text-xs text-muted-foreground">{T.footer.tagline[lang]}</div>
