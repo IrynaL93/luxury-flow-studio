@@ -1,6 +1,6 @@
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
-import iryna from "@/assets/iryna.jpg";
+import iryna from "@/assets/iryna-portrait.png.asset.json";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 export const Hero = () => {
@@ -37,7 +37,7 @@ export const Hero = () => {
             <div className="relative aspect-[4/5] max-w-md mx-auto">
               <div className="absolute -inset-4 bg-gradient-primary rounded-[2rem] blur-2xl opacity-40" aria-hidden />
               <div className="relative h-full rounded-[2rem] overflow-hidden glass-strong shadow-elegant">
-                <img src={iryna} alt="Iryna Liubynetska, founder of LBN Flow" className="w-full h-full object-cover" width={896} height={1152} />
+                <img src={iryna.url} alt="Iryna Liubynetska, founder of LBN Flow" className="w-full h-full object-cover" width={1536} height={1024} />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="glass-strong rounded-2xl p-4">
