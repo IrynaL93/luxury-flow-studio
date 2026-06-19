@@ -1,6 +1,6 @@
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
-import iryna from "@/assets/iryna.jpg";
+import iryna from "@/assets/iryna-portrait.png.asset.json";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 export const Hero = () => {
