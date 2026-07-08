@@ -1,12 +1,12 @@
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
 import { useReveal } from "@/hooks/use-reveal";
-import mcast from "@/assets/case-mcast.jpg";
-import unek from "@/assets/case-unek.jpg";
-import imperial from "@/assets/case-imperial.jpg";
+import mcast from "@/assets/case-mcast.png";
+import unek from "@/assets/case-unek.png";
+import imperial from "@/assets/case-imperial.png";
 import ugc from "@/assets/case-ugc.jpg";
-import sofia from "@/assets/case-sofia.jpg";
-import powerhub from "@/assets/case-powerhub.jpg";
+import sofia from "@/assets/case-sofia.png";
+import powerhub from "@/assets/case-powerhub.png";
 import { ArrowUpRight } from "lucide-react";
 
 const images = [mcast, unek, imperial, ugc, sofia, powerhub];
