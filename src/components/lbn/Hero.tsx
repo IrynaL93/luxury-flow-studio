@@ -37,7 +37,7 @@ export const Hero = () => {
             <div className="relative aspect-[4/5] max-w-md mx-auto">
               <div className="absolute -inset-4 bg-gradient-primary rounded-[2rem] blur-2xl opacity-40" aria-hidden />
               <div className="relative h-full rounded-[2rem] overflow-hidden glass-strong shadow-elegant">
-                <img src={iryna.url} alt="Iryna Liubynetska, founder of LBN Flow" className="w-full h-full object-cover" width={1023} height={1537} />
+                <img src={iryna} alt="Iryna Liubynetska, founder of LBN Flow" className="w-full h-full object-cover" width={1023} height={1537} />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="glass-strong rounded-2xl p-4">
