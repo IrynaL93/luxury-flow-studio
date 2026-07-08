@@ -1,7 +1,8 @@
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
 import logo from "@/assets/logo.png";
-import { Instagram, Mail } from "lucide-react";
+import { Instagram, Mail, Send } from "lucide-react";
+
 
 export const Footer = () => {
   const { lang } = useLang();
