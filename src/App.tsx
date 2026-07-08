@@ -15,10 +15,9 @@ const App = () => (
       <Toaster />
       <Sonner />
       <LangProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/luxury-flow-studio">
           <Routes>
             <Route path="/" element={<Index />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
