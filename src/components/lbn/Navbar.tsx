@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
-import logo from "@/assets/logo.png.asset.json";
+import logo from "@/assets/logo.png";
 import { Menu, X } from "lucide-react";
 
 const links = [
