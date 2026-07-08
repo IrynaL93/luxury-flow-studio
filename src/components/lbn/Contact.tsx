@@ -22,11 +22,11 @@ export const Contact = () => {
                 {T.contact.email[lang]}
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
-              <a href="https://www.instagram.com/lbn_flow" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full glass text-foreground font-semibold hover:bg-muted/60 transition-colors">
+              <a href="https://www.instagram.com/lbnflow" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full glass text-foreground font-semibold hover:bg-muted/60 transition-colors">
                 <Instagram size={18} />
-                @lbn_flow
+                @lbnflow
               </a>
-              <a href="https://freelancehunt.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full glass text-foreground font-semibold hover:bg-muted/60 transition-colors">
+              <a href="https://freelancehunt.com/freelancer/Irish93.html#portfolio" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full glass text-foreground font-semibold hover:bg-muted/60 transition-colors">
                 <ExternalLink size={18} />
                 {T.contact.fh[lang]}
               </a>
