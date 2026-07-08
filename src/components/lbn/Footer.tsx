@@ -17,6 +17,10 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex items-center gap-3">
+            <a
+  href="https://t.me/your_username"  target="_blank"  rel="noopener noreferrer"  aria-label="Telegram"  className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition">
+  <FaTelegramPlane size={16} />
+</a>
             <a href="mailto:agencysmm2019@gmail.com" aria-label="Email" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition">
               <Mail size={16} />
             </a>
