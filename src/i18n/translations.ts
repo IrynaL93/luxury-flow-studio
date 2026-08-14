@@ -34,12 +34,12 @@ export const translations = {
     title: { ua: "Ірина Любинецька", en: "Iryna Liubynetska" },
     role: { ua: "Засновниця LBN Flow", en: "Founder of LBN Flow" },
     p1: {
-      ua: "Я об'єдную дизайн, технології та маркетинг у злагоджену систему, що приносить результат. За роки роботи з брендами в Україні та за кордоном я зрозуміла одне: красивий сайт без процесів не продає.",
-      en: "I blend design, technology and marketing into one system that delivers results. After years of working with brands in Ukraine and abroad I learned one thing: a beautiful website without process doesn't sell.",
+      ua: "Я займаюся веброзробкою та створенням сайтів для бізнесів, яким потрібна зрозуміла цифрова система: від структури й дизайну до запуску.",
+      en: "I work on web development and website creation for businesses that need a clear digital system: from structure and design to launch.",
     },
     p2: {
-      ua: "Тому LBN Flow — це не просто сайти. Це повний цикл: від стратегії та дизайну до CRM, інтеграцій та автоматизації, що звільняє ваш час.",
-      en: "That's why LBN Flow isn't just websites. It's a full cycle: strategy, design, CRM, integrations and automation that frees up your time.",
+      ua: "Фокус LBN Flow — сайти, CRM та автоматизація процесів, щоб заявки, сервіси й комунікації працювали як одна система.",
+      en: "LBN Flow focuses on websites, CRM and process automation so leads, tools and communication work as one system.",
     },
     tags: { ua: ["Стратегія", "Дизайн", "Розробка", "CRM", "Автоматизація"], en: ["Strategy", "Design", "Development", "CRM", "Automation"] },
   },
@@ -131,8 +131,13 @@ export const translations = {
     title: { ua: "Готові обговорити ваш проєкт?", en: "Ready to discuss your project?" },
     subtitle: { ua: "Розкажіть про задачу — повернемось з пропозицією протягом 24 годин.", en: "Tell us about your task — we'll get back with a proposal within 24 hours." },
     email: { ua: "Написати на email", en: "Email us" },
-    insta: { ua: "Instagram", en: "Instagram" },
-    fh: { ua: "Freelancehunt", en: "Freelancehunt" },
+    telegram: { ua: "Telegram: @lbn_flow", en: "Telegram: @lbn_flow" },
+    form: {
+      name: { ua: "Ім'я", en: "Name" },
+      email: { ua: "Email", en: "Email" },
+      message: { ua: "Повідомлення", en: "Message" },
+      submit: { ua: "Надіслати запит", en: "Send request" },
+    },
   },
   footer: {
     rights: { ua: "Всі права захищені.", en: "All rights reserved." },

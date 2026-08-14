@@ -1,7 +1,7 @@
 import { useLang } from "@/contexts/LangContext";
 import { translations as T } from "@/i18n/translations";
 import logo from "@/assets/logo.png";
-import { Instagram, Mail, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 
 
 export const Footer = () => {
@@ -24,9 +24,6 @@ export const Footer = () => {
 </a>
             <a href="mailto:agencysmm2019@gmail.com" aria-label="Email" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition">
               <Mail size={16} />
-            </a>
-            <a href="https://www.instagram.com/lbnflow" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition">
-              <Instagram size={16} />
             </a>
           </div>
           <div className="text-xs text-muted-foreground">
